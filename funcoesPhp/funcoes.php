@@ -5,12 +5,14 @@
         private float $num1;
         private float $num2;
         private float $resultado;
+        private float $num3;
         
         //Criando um construtor = Instância as variáveis -> Cria as variáveis na memória do servidor
         public function __construct(){
             $this->num1      = 0;
             $this->num2      = 0;
             $this->resultado = 0;
+            $this->num3      = 0;
         }//fim do construtor
 
         //Métodos de acesso e modificadores
@@ -63,5 +65,15 @@
                 return "X1 = $x1 <br><br> X2 = $x2";
             }
         }//fim do método
+
+        public function dobrarUmNumero(float $num1){
+            $this->resultado = $num1 * 2;
+            return $this->resultado;
+        }//fim do método dobrar
+
+        public function mediaDosNumeros(float $num1, $num2, $num3){
+            $this->resultado = $num1 + $num2 + $num3;
+            return $this->resultado;
+        }
     }//fim da classe
 ?>
