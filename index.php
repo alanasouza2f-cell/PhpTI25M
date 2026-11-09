@@ -17,5 +17,8 @@
     <button><a href="telas/bhaskara.php">Calcular Bhaskara</a></button><br>
     <button><a href="telas/dobrar.php">Dobrar</a></button><br>
     <button><a href="telas/media.php">Media</a></button><br>
+    <button><a href="telas/raiz.php">Raiz</a></button><br>
+    <button><a href="telas/area.php">Área</a></button><br>
+    <button><a href="telas/area.php">Desconto</a></button><br>
 </body>
 </html>

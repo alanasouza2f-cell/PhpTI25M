@@ -74,6 +74,17 @@
         public function mediaDosNumeros(float $num1, $num2, $num3){
             $this->resultado = $num1 + $num2 + $num3;
             return $this->resultado;
-        }
+        }//fim método média
+
+        public function raiz(float $num1){
+            $this->resultado = sqrt($num1);
+            return $this->resultado;
+        }//fim método raiz 
+        
+        public function area(float $num1){
+            $this->resultado = ($num1*2) * 3.14;
+            return $this->resultado; 
+        }//fim método area
+
     }//fim da classe
 ?>
