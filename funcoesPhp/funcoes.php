@@ -82,9 +82,52 @@
         }//fim método raiz 
         
         public function area(float $num1){
-            $this->resultado = ($num1*2) * 3.14;
+            $this->resultado = pow($num1,2) * 3.14;
             return $this->resultado; 
         }//fim método area
+        
+        public function desconto(float $num1){
+            $this->resultado = $num1 * 0.9;
+            return $this->resultado;
+        }//fim do método desconto 
 
+        public function velocidadeMedia(float $num1, float $num2){
+            if($num2 <= 0){
+                return "Impossível dividir por zero!";
+            }else{
+                $this->resultado = $num1 / $num2;
+                return $this->resultado;
+            }
+        }
+
+        public function mediaAritmetica(float $num1, float $num2){
+            $this->resultado = ($num1 + $num2) /2;
+            return $this->resultado;
+        }//fim do método aritmética
+
+        public function dias(float $num1){
+            $this->resultado = $num1 * 365.25;
+            return $this->resultado;
+        }//fim do método Anos em dias
+
+        public function meses(float $num1){
+            $this->resultado = $num1 * 12;
+            return $this->resultado;
+        }//fim do método Anos em dias
+
+        public function temperatura(float $num1){
+            $this->resultado = ($num1*1.8) + 32;
+            return $this->resultado;
+        }//fim do método Anos em dias
+
+        public function areaTriangulo(float $num1, float $num2){
+            $this->resultado = $num1*$num2 /2;
+            return $this->resultado; 
+        }//fim método area do triângulo 
+
+        public function metros(float $num1){
+            $this->resultado = $num1;
+            return $this->resultado;
+        }//fim método de converção metros para centimetros
     }//fim da classe
 ?>

@@ -14,7 +14,7 @@
     <title>Raiz</title>
 </head>
 <body>
-    <h1>Informe os valores que deseja Calcular a Raiz: </h1>
+    <h1>Informe os valor que deseja Calcular a Raiz: </h1>
     <form method="POST">
         <label>Informe o número: </label>
         <input type="number" id="primeiroNumero" name="primeiroNumero"/>
